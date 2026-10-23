@@ -47,7 +47,7 @@ function UserPhotos() {
           {/* Hiển thị ảnh (Lấy từ thư mục src/images) */}
           <CardMedia
             component="img"
-            image={require(`../../images/${photo.file_name}`)}
+            image={`/images/${photo.file_name}`}
             alt="User photo"
             sx={{ mt: 1, mb: 2, maxHeight: 400, objectFit: "contain" }}
           />
